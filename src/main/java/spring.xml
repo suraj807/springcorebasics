@@ -5,6 +5,9 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-<bean id="dev" class="com.devspring.developer"></bean>
+<bean id="dev" class="com.devspring.developer">
+<property name="devId" value="25"> </property>
+</bean>
+
 
 </beans>
