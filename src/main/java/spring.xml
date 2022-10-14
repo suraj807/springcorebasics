@@ -6,8 +6,10 @@
 
     <!-- bean definitions here -->
 <bean id="dev" class="com.devspring.developer">
-<property name="devId" value="25"> </property>
+<constructor-arg value="suraj dev"></constructor-arg>
+<property name="leap" ref="leap"></property>
 </bean>
+<bean id="leap" class="com.devspring.laptop"></bean>
 
 
 </beans>

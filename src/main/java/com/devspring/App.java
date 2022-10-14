@@ -14,7 +14,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       // System.out.println( "Hello World!" );
          
        //  developer dev =new developer();
        // BeanFactory bf=new XmlBeanFactory(new FileSystemResource("spring.xml"));
@@ -22,6 +22,8 @@ public class App
         developer dev=(developer)bf.getBean(developer.class);
         dev.coding();
         
-        System.out.println("first dev"+ dev.getDevId());
+       // System.out.println("first dev"+ dev.getDevId());
+        
+        System.out.println("first name is "+ dev.getDevName());
     }
 }
